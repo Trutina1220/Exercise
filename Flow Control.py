@@ -81,7 +81,46 @@
 #     else:
 #         return False
 
-print(phrases_palindrome())
+# print(phrases_palindrome())
+
+# number 8
+
+# def generate_n_chars(int,str):
+#     word = str
+#     number_of_times = 0
+#     for i in range(int):
+#         number_of_times += 1
+#         word += str
+#     if number_of_times == int:
+#         return(word)
+#
+# print(generate_n_chars(5,"x"))
+
+# number 10
+def grading():
+    score = float(input("Enter the score: "))
+    if score > 1.0 or score < 0:
+        return ("Error")
+    elif score >= 0.9:
+        return ("A")
+    elif score >= 0.8:
+        return ("B")
+    elif score >= 0.7:
+        return ("C")
+    elif score >= 0.6:
+        return ("D")
+    elif score < 0.6:
+        return ("F")
+
+print(grading())
+
+
+
+
+
+
+
+
 
 
 
