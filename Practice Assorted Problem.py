@@ -41,18 +41,18 @@
 # print(_member(9))
 
 # number 5
-# def overlapping():
-#     list_1 = [1,2,3,4,5,6,7]
-#     list_2 = [8,9,10,11,12]
+# def overlapping(list_1, list_2):
 #     for i in list_1:
-#         if i != list_2[0]:
-#             for a in list_2:
-#                 if i == list_2[i]:
-#                     return True
-#
-# print(overlapping())
+#         for j in list_2:
+#             if i == j:
+#                 return True
+#     return False
+# print(overlapping((2, 4, 6), (1, 5, 7)))
+
 
 # number 6 (make histogram)
-# def histogram(list):
-#     for
-#
+def histogram(list_1):
+    for i in list_1:
+        histogram = i*'*'
+        print(histogram)
+histogram((4,9,7))
