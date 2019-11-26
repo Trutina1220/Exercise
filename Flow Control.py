@@ -83,7 +83,7 @@
 
 # print(phrases_palindrome())
 
-# number 8
+# number 8 (generate chars)
 
 # def generate_n_chars(int,str):
 #     word = str
@@ -96,23 +96,50 @@
 #
 # print(generate_n_chars(5,"x"))
 
-# number 10
-def grading():
-    score = float(input("Enter the score: "))
-    if score > 1.0 or score < 0:
-        return ("Error")
-    elif score >= 0.9:
-        return ("A")
-    elif score >= 0.8:
-        return ("B")
-    elif score >= 0.7:
-        return ("C")
-    elif score >= 0.6:
-        return ("D")
-    elif score < 0.6:
-        return ("F")
+# number 9 (grading)
+# def grading():
+#     score = float(input("Enter the score: "))
+#     if score > 1.0 or score < 0:
+#         return ("Error")
+#     elif score >= 0.9:
+#         return ("A")
+#     elif score >= 0.8:
+#         return ("B")
+#     elif score >= 0.7:
+#         return ("C")
+#     elif score >= 0.6:
+#         return ("D")
+#     elif score < 0.6:
+#         return ("F")
+#
+# print(grading())
 
-print(grading())
+# number 10 (gross pay)
+# def gross_pay():
+#     hours = int(input('Enter Hours: '))
+#     rate : int = 10
+#     pay : float  = 0
+#     if hours <= 40:
+#         pay += hours*rate
+#     elif hours >40:
+#         pay += (hours*rate)
+#         pay += ((hours-40)*5)
+#     print('Rate:',rate)
+#     print('Pay: ', pay)
+#     return rate, pay
+#
+# print(gross_pay())
+
+# number 11
+# def distance_from_zero(a):
+#     if type(a) == type("go"):
+#         print('Nope')
+#         exit()
+#     else:
+#         print(a)
+#         exit()
+# print(distance_from_zero(-5.6))
+
 
 
 
