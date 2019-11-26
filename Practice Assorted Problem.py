@@ -51,8 +51,8 @@
 
 
 # number 6 (make histogram)
-def histogram(list_1):
-    for i in list_1:
-        histogram = i*'*'
-        print(histogram)
-histogram((4,9,7))
+# def histogram(list_1):
+#     for i in list_1:
+#         histogram = i*'*'
+#         print(histogram)
+# histogram((4,9,7))

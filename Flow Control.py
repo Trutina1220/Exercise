@@ -142,7 +142,7 @@
 
 # number 12 ( pig language
 # def pig_translate():
-#     word: str = input('Enter the word: ')
+#     word: str = input('Enter the word: ')       #user input (String)
 #     not_included = [',','.','/','?','"',' ',"'",';']
 #     for i in not_included:
 #         if i in word:
