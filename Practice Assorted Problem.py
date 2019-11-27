@@ -72,6 +72,15 @@
 # number 6 (make histogram)
 # def histogram(a=[]):
 #     for i in a:
-#         histogram = i*'*'             #tweaking the argument 
+#         histogram = i*'*'             #tweaking the argument
 #         print(histogram)
 # histogram(a=[4,9,7])
+
+# number 7(find the longest word in a list )
+# def find_longest_word(a=[]):
+#     list_of_len_words = []
+#     for i in a:
+#         list_of_len_words.append(len(i))
+#     print(max(list_of_len_words))
+# find_longest_word(a=['jackass','lokenghong','losapaanjing'])
+
