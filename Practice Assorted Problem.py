@@ -70,8 +70,8 @@
 
 
 # number 6 (make histogram)
-# def histogram(list_1):
-#     for i in list_1:
-#         histogram = i*'*'
+# def histogram(a=[]):
+#     for i in a:
+#         histogram = i*'*'             #tweaking the argument 
 #         print(histogram)
-# histogram((4,9,7))
+# histogram(a=[4,9,7])
