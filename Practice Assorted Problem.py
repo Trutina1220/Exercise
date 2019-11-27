@@ -76,11 +76,100 @@
 #         print(histogram)
 # histogram(a=[4,9,7])
 
-# number 7(find the longest word in a list )
+#number 7
+# def find_the_number_word(a=[]):
+#     list_of_len_words = []
+#     for i in a:
+#         list_of_len_words.append(len(i))
+#     print(list_of_len_words)
+# find_the_number_word(a=['gogo','lamakunta','terbang'])
+
+# number 8(find the longest word in a list )
 # def find_longest_word(a=[]):
 #     list_of_len_words = []
 #     for i in a:
 #         list_of_len_words.append(len(i))
 #     print(max(list_of_len_words))
 # find_longest_word(a=['jackass','lokenghong','losapaanjing'])
+
+# number 9
+# def filter_long_words(a:int,words:list =[]):
+#     the_big_words=[]
+#     for i in words:
+#         if len(i) > a:
+#             the_big_words.append(i)
+#     return (the_big_words)
+# print(filter_long_words(3,['apa','kuda','makanan']))
+
+#number 10
+# def find_pangram():
+#     alphabet:list=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',' ']
+#     the_checked_words=[]
+#     sentence:str = input('enter the sentence: ')
+#     sentence = sentence.lower()
+#     for i in alphabet:
+#         if i in sentence:
+#             the_checked_words.append(i)
+#     if the_checked_words == alphabet:
+#         return True
+#     else:
+#         return False
+# print(find_pangram())
+
+#number 11
+# def char_freq(a:str):
+#     this_dict={}
+#     for i in a:
+#         if i not in this_dict:
+#             this_dict[i] = 0
+#         if i in this_dict:
+#             this_dict[i] += 1
+#     print(this_dict)
+#
+# char_freq('memekke')
+
+
+# number 12
+# def translate_caesar_cipher(a:str):
+#     alphabet:list=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+#     the_translate =''
+#     for i in a:
+#         x = alphabet.index(i) + 13
+#         if x > 25:
+#             x = x-26
+#         the_translate += alphabet[x]
+#     print(the_translate)
+# translate_caesar_cipher('o')
+
+#number 13
+# def makeForms():
+#     verb_:str = input('enter the infinitive verb: ')
+#     verb_1:str = verb_
+#     if verb_.endswith("y"):
+#         verb_1 = verb_.rstrip('y')  + 'ies'
+#     elif verb_.endswith('o') or verb_.endswith('ch') or verb_.endswith('s') or verb_.endswith('sh') or verb_.endswith('x') or verb_.endswith('z'):
+#         verb_1 = verb_ + 'es'
+#     else:
+#         verb_1 = verb_ + 's'
+#     return verb_1
+# print(makeForms())
+
+# number 14
+# def make_forming():
+#     vocals = ['a','i','u','e','o']
+#     verb_:str = input('enter the infinitive verb: ')
+#     for i in vocals:
+#         if verb_.endswith(i,-2,-2)
+#     verb_ing:str = verb_
+#     if verb_.endswith('e') and verb_.endswith('ee'):
+#         verb_ing = verb_ + 'ing'
+#     elif verb_.endswith('ie'):
+#         verb_ing = verb_.rstrip('ie')+'ying'
+#     elif verb_.endswith('e'):
+#         verb_ing= verb_ing.rstrip('e') +'ing'
+#     else:
+#         verb_ing = verb_ing +'ing'
+#     return verb_ing
+#
+# print(make_forming())
 
