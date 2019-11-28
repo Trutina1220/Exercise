@@ -154,22 +154,25 @@
 #     return verb_1
 # print(makeForms())
 
-# number 14
+# # # number 14
 # def make_forming():
 #     vocals = ['a','i','u','e','o']
 #     verb_:str = input('enter the infinitive verb: ')
-#     for i in vocals:
-#         if verb_.endswith(i,-2,-2)
-#     verb_ing:str = verb_
+#     verb_ing: str = verb_
+#     for letter in verb_:
+#         if verb_[-2] in vocals and verb_[-1] not in vocals and verb_[-3] not in vocals:
+#             verb_ing = verb_+verb_[-1]+'ing'
+#             return verb_ing
 #     if verb_.endswith('e') and verb_.endswith('ee'):
 #         verb_ing = verb_ + 'ing'
+#         return verb_ing
 #     elif verb_.endswith('ie'):
 #         verb_ing = verb_.rstrip('ie')+'ying'
+#         return verb_ing
 #     elif verb_.endswith('e'):
 #         verb_ing= verb_ing.rstrip('e') +'ing'
+#         return verb_ing
 #     else:
 #         verb_ing = verb_ing +'ing'
-#     return verb_ing
-#
+#         return verb_ing
 # print(make_forming())
-
