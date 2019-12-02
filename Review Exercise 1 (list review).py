@@ -32,7 +32,7 @@
 # xlist4 = list(range(-3))
 # print(xlist4)                   #the output should be []
 
-#number 8
+# #number 8
 # xlist = [2, 1, 3]
 # ylist = xlist.sort()
 # print(xlist, ylist)       #the ouput should be [1,2,3] None
@@ -170,14 +170,6 @@
 #         xlist.append(x)
 #     return xlist                  #this function makes user input something , and make it into list
 # print(foo())
-
-
-
-
-
-
-
-
 
 
 

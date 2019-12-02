@@ -141,17 +141,17 @@
 # print(distance_from_zero(-5.6))
 
 # number 12 ( pig language
-# def pig_translate():
-#     word: str = input('Enter the word: ')       #user input (String)
-#     not_included = [',','.','/','?','"',' ',"'",';']
-#     for i in not_included:
-#         if i in word:
-#             print("False")
-#             exit()
-#         else:
-#             translated_word = word[1:len(word):1] + word[0:1:1] + 'ay'
-#     return translated_word
-#
+def pig_translate():
+    word: str = input('Enter the word: ')       #user input (String)
+    not_included = [',','.','/','?','"',' ',"'",';']
+    for i in not_included:
+        if i in word:
+            print("False")
+            exit()
+        else:
+            translated_word = word[1:len(word):1] + word[0:1:1] + 'ay'
+    return translated_word
+
 # print(pig_translate())
 
 

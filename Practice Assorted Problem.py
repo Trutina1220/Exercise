@@ -66,7 +66,7 @@
 #             if i == j:
 #                 return True
 #     return False
-# print(overlapping((2, 4, 6), (1, 5, 7)))
+# print(overlapping((2, 4, 6), (3, 5, 4)))
 
 
 # number 6 (make histogram)
@@ -117,19 +117,19 @@
 # print(find_pangram())
 
 #number 11
-# def char_freq(a:str):
-#     this_dict={}
-#     for i in a:
-#         if i not in this_dict:
-#             this_dict[i] = 0
-#         if i in this_dict:
-#             this_dict[i] += 1
-#     print(this_dict)
-#
-# char_freq('memekke')
+def char_freq(a:str):
+    this_dict={}
+    for i in a:
+        if i not in this_dict:
+            this_dict[i] = 0
+        if i in this_dict:
+            this_dict[i] += 1
+    print(this_dict)
+
+char_freq('a')
 
 
-# number 12
+# # number 12
 # def translate_caesar_cipher(a:str):
 #     alphabet:list=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
 #     the_translate =''
@@ -139,7 +139,7 @@
 #             x = x-26
 #         the_translate += alphabet[x]
 #     print(the_translate)
-# translate_caesar_cipher('o')
+# translate_caesar_cipher('nenek')
 
 #number 13
 # def makeForms():
@@ -176,3 +176,5 @@
 #         verb_ing = verb_ing +'ing'
 #         return verb_ing
 # print(make_forming())
+
+
