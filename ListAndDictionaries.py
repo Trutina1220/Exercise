@@ -104,4 +104,12 @@
 # print(get_class_average(students))
 # print(get_letter_grade(get_class_average(students)))
 
-
+#EXTRA PRIME NUMBERS
+def find_the_prime_numbers_with_index():
+    number= int(input('Enter the index of the prime number: '))
+    prime_numbers=[2,3,5,7]
+    for i in range (8,10000000):
+        if i%2 != 0 and i%(3) != 0 and i%(5) != 0 and i%(7) != 0:
+            prime_numbers.append(i)
+    return (prime_numbers[number-1])
+print(find_the_prime_numbers_with_index())
